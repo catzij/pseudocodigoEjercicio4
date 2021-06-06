@@ -1,0 +1,24 @@
+inicio
+
+	var edad[20];
+
+	var contador = 0, contador <20,contador ++{
+	  mostrar "ingrese edad"
+	  leer edad[i];
+	  i++
+	}
+	var mayor, menor = edad[0] ;
+	var contador = 0, contador < 20, contador ++ {
+
+	  si edad[i] > mayor
+	    mayor = edad[i]
+	  fin si
+
+	  si edad[i] < menor
+	    menor = edad[i]
+	  fin si
+	  
+	}
+	mostrar "el mayor es "+mayor;
+	mostrar " el menor es "+menor;
+fin		
